@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Love Match</title>
+    <!-- default css -->
+    <link rel="stylesheet" href="css/default.css">
+    <!-- for mobile -->
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 480px)">
+    <!-- for tab -->
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 481px) and (max-width: 1023px)">
+    <!-- for desktop -->
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)">
+</head>
+<body>
+    <section class="fullSection">
+        <div class="headerBox">
+            <div id="coupleNames"></div>
+            <div id="gameTitle">
+                <i class="fa-regular fa-heart"></i>
+                love match
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div id="percentage"></div>
+            <div id="miniText"></div>
+        </div>
+        <form>
+            <div class="textParent">
+                <label id="label1">What is your name?</label>
+                <input type="text" class="box" id="input1" required placeholder="Your name" name="form1">
+                <br>
+                <label id="label2">What is your significant other's name?</label>
+                <input type="text" class="box" id="input2" required placeholder="Partner's name" name="form2">
+            </div>
+            <button type="submit" id="subBtn">calculate your love!</button>
+        </form>
+        <div class="waterMark">by ace</div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

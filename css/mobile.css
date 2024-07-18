@@ -1,0 +1,82 @@
+.fullSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(171, 2, 92);
+    text-transform: uppercase;
+}
+.headerBox{
+    position: relative;
+    width: 70vw;
+    height: 100px;
+    border: solid 3px #fff;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    background-color: deeppink;
+    color: #fff;
+    font-size: 20px;
+}
+.gameTitle{
+    width: 70vw;
+}
+.textParent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+.box{
+    height: 30px;
+    width: 80vw;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid deeppink 2px;
+    color: #000;
+}
+label{
+    text-align: center;
+    font-size: 15px;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(241, 34, 138);
+    color: #fff;
+    border: solid 2px;
+    border-radius: 20px;
+    height: 40px;
+    width: 60vw;
+    text-transform: uppercase;
+    font-family: cursive;
+    padding: 5px;
+    margin-left: 80px;
+}
+button:active{
+    transform: scale(1.1);
+}
+button:hover{
+    background-color: rgb(202, 16, 109);
+}
+.icon{
+    font-size:  300px;
+}
+#miniText{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.waterMark{
+    position: fixed;
+    right: 0px;
+    top: 15px;
+    background-color: rgb(241, 95, 154);
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    align-content: center;
+    font-size: 10px;
+}
